@@ -1,6 +1,7 @@
 from flask import render_template
 from app import app
 
+#using two decorators for index function
 @app.route('/')
 @app.route('/index')
 def index():
